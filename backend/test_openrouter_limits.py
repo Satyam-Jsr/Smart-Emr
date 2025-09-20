@@ -6,7 +6,11 @@ import json
 import os
 
 # Load API key from environment
-API_KEY = "OPENROUTER_API_KEY_REMOVED"
+API_KEY = os.environ.get("OPENROUTER_API_KEY")
+if not API_KEY:
+    print("ERROR: OPENROUTER_API_KEY environment variable not set")
+    print("Please set it in your .env file or environment")
+    exit(1)
 headers = {'Authorization': f'Bearer {API_KEY}'}
 
 print("=== OpenRouter Account & Rate Limits ===\n")
