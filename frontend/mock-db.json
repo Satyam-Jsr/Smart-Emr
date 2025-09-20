@@ -1,0 +1,16 @@
+{
+  "patients": [
+    { "id": 1, "name": "Aisha Kumar", "age": 52, "last_visit": "2025-09-14" },
+    { "id": 2, "name": "Rohit Singh", "age": 38, "last_visit": "2025-08-09" }
+  ],
+  "notes": [
+    { "id": 1, "patient_id": 1, "date": "2025-09-14", "text": "Cough improving, slightly breathless on exertion." },
+    { "id": 2, "patient_id": 1, "date": "2025-09-10", "text": "CXR shows small right lower lobe infiltrate. Start azithromycin." },
+    { "id": 3, "patient_id": 1, "date": "2025-09-01", "text": "Persistent cough 2 weeks, mild fever." }
+  ],
+  "vitals": [
+    { "id": 1, "patient_id": 1, "date": "2025-08-01", "systolic": 130, "diastolic": 80 },
+    { "id": 2, "patient_id": 1, "date": "2025-09-01", "systolic": 140, "diastolic": 88 },
+    { "id": 3, "patient_id": 1, "date": "2025-09-14", "systolic": 150, "diastolic": 92 }
+  ]
+}

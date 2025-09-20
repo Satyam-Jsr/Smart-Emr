@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  #root {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  :root {
+    /* Scrollbar styling */
+.overflow-y-auto {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-text-muted);
+}
+
+/* Component Library */
+    --color-primary: #2563eb;
+    --color-primary-dark: #1d4ed8;
+    --color-primary-light: #60a5fa;
+    --color-secondary: #059669;
+    --color-secondary-dark: #047857;
+    --color-accent: #dc2626;
+    --color-warning: #d97706;
+    --color-success: #16a34a;
+    
+    /* Neutral Grays */
+    --color-gray-50: #f8fafc;
+    --color-gray-100: #f1f5f9;
+    --color-gray-200: #e2e8f0;
+    --color-gray-300: #cbd5e1;
+    --color-gray-400: #94a3b8;
+    --color-gray-500: #64748b;
+    --color-gray-600: #475569;
+    --color-gray-700: #334155;
+    --color-gray-800: #1e293b;
+    --color-gray-900: #0f172a;
+    
+    /* Semantic Colors */
+    --color-background: #ffffff;
+    --color-surface: #f8fafc;
+    --color-border: #e2e8f0;
+    --color-text-primary: #1e293b;
+    --color-text-secondary: #64748b;
+    --color-text-muted: #94a3b8;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  /* EMR Card Component */
+  .emr-card {
+    @apply bg-white rounded-xl shadow-md border border-gray-200 p-6 transition-all duration-200 hover:shadow-lg;
+  }
+  
+  .emr-card-compact {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4 transition-all duration-200 hover:shadow-md;
+  }
+  
+  /* EMR Button Variants */
+  .emr-btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg transition-colors duration-200 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  }
+  
+  .emr-btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium px-4 py-2 rounded-lg transition-colors duration-200 focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+  }
+  
+  .emr-btn-success {
+    @apply bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded-lg transition-colors duration-200 focus:ring-2 focus:ring-green-500 focus:ring-offset-2;
+  }
+  
+  .emr-btn-danger {
+    @apply bg-red-600 hover:bg-red-700 text-white font-medium px-4 py-2 rounded-lg transition-colors duration-200 focus:ring-2 focus:ring-red-500 focus:ring-offset-2;
+  }
+  
+  .emr-btn-ghost {
+    @apply text-gray-600 hover:text-gray-800 hover:bg-gray-100 font-medium px-3 py-2 rounded-lg transition-all duration-200;
+  }
+  
+  /* EMR Input Component */
+  .emr-input {
+    @apply border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200;
+  }
+  
+  /* EMR Badge Component */
+  .emr-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .emr-badge-primary {
+    @apply bg-blue-100 text-blue-800;
+  }
+  
+  .emr-badge-success {
+    @apply bg-green-100 text-green-800;
+  }
+  
+  .emr-badge-warning {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+  
+  .emr-badge-danger {
+    @apply bg-red-100 text-red-800;
+  }
+  
+  /* EMR Typography */
+  .emr-heading-1 {
+    @apply text-2xl font-bold text-gray-900 tracking-tight;
+  }
+  
+  .emr-heading-2 {
+    @apply text-xl font-semibold text-gray-900;
+  }
+  
+  .emr-heading-3 {
+    @apply text-lg font-medium text-gray-900;
+  }
+  
+  .emr-text-body {
+    @apply text-sm text-gray-700 leading-relaxed;
+  }
+  
+  .emr-text-muted {
+    @apply text-sm text-gray-500;
+  }
+  
+  .emr-text-caption {
+    @apply text-xs text-gray-400;
+  }
+  
+  /* EMR Status Indicators */
+  .emr-status-dot {
+    @apply w-2 h-2 rounded-full inline-block;
+  }
+  
+  .emr-status-online {
+    @apply bg-green-400;
+  }
+  
+  .emr-status-busy {
+    @apply bg-yellow-400;
+  }
+  
+  .emr-status-offline {
+    @apply bg-gray-400;
+  }
+  
+  /* EMR Panel Component */
+  .emr-panel {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm;
+  }
+  
+  .emr-panel-header {
+    @apply px-6 py-4 border-b border-gray-200 bg-gray-50 rounded-t-xl;
+  }
+  
+  .emr-panel-body {
+    @apply p-6 flex-1 min-h-0;
+  }
+  
+  .emr-panel-footer {
+    @apply px-6 py-4 border-t border-gray-200 bg-gray-50 rounded-b-xl;
+  }
+}

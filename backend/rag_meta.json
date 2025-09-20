@@ -1,0 +1,92 @@
+[
+  {
+    "note_id": 6,
+    "patient_id": 1,
+    "text_snippet": "2025-09-20: Cough improving, still short of breath on exertion.",
+    "note_date": "2025-10-15T00:00:00"
+  },
+  {
+    "note_id": 5,
+    "patient_id": 1,
+    "text_snippet": "2025-09-14: CXR shows small right lower lobe infiltrate. Start azithromycin.",
+    "note_date": "2025-09-30T00:00:00"
+  },
+  {
+    "note_id": 14,
+    "patient_id": 6,
+    "text_snippet": "Medical Document Analysis - Imaging Report (Document IDs: 6, 7)\n\nDate: 2025-09-18 | Document Type: X-ray | OCR Confidence: 34%\n\nDOCUMENT STATUS:\n- Two duplicate uploads of the same X-ray report\n- Poor OCR quality due to image resolution or scan quality\n- Text extraction significantly compromised\n\nEXTRACTED CONTENT ANALYSIS:\n- Document appears to be a radiology or imaging report\n- Unable to reliably extract specific findings due to OCR limitations\n- Contains fragmented medical terminology\n\nCLINICAL RECOMMENDATION:\n- Manual review of original document recommended\n- Re-upload with higher image quality if possible\n- Consider requesting original digital report from imaging center\n\nFOLLOW-UP ACTIONS:\n- Contact patient for clearer copy of imaging report\n- Review with radiologist if clinical correlation needed\n- Document original findings in subsequent visit notes\n\nNote: Limited clinical value due to poor OCR extraction quality. Manual document review required for accurate interpretation.",
+    "note_date": "2025-09-19T10:10:00"
+  },
+  {
+    "note_id": 13,
+    "patient_id": 3,
+    "text_snippet": "Medical Document Analysis - Laboratory Report (Document ID: 5)\n\nDate: 2025-09-19 | OCR Confidence: 69%\nOriginal Report Patient: John Smith | DOB: 01/15/1980\n\nLABORATORY RESULTS:\n- Glucose: 95 mg/dL (Normal range: 70-100 mg/dL) - NORMAL\n- Cholesterol: 130 mg/dL (Normal: <200 mg/dL) - NORMAL  \n- Hemoglobin: 14.2 g/dL (Normal: 12-16 g/dL) - NORMAL\n\nOVERALL ASSESSMENT:\nAll laboratory values are within normal limits.\n\nCLINICAL STATUS:\n- No acute abnormalities identified in basic metabolic panel\n- Glucose control appears adequate\n- Lipid profile within acceptable range\n- Hemoglobin levels normal, no signs of anemia\n\nNote: This analysis is based on OCR extraction from uploaded medical document.",
+    "note_date": "2025-09-19T10:05:00"
+  },
+  {
+    "note_id": 12,
+    "patient_id": 4,
+    "text_snippet": "Medical Document Analysis - Laboratory Report (Document ID: 9)\n\nDate: 2025-09-15 | Source: ACME Medical Center Lab Report\nOriginal Patient: Aisha Kumar | OCR Confidence: 93%\n\nCLINICAL PRESENTATION:\n- Chief complaint: Cough and shortness of breath (7-day duration)\n- Past medical history: Hypertension\n- Current medications: Amlodipine 5mg daily\n- Medication compliance: Missed doses twice in the past week\n\nLABORATORY RESULTS:\n- Hemoglobin: 13.2 g/dL (Normal: 12.0-15.5)\n- WBC: 11.3 x10^9/L (Reference: 4.0-11.0) - MILDLY ELEVATED\n- Platelets: 220 x10^9/L (Normal: 150-400)\n- CRP: 8.4 mg/L (Reference: <5.0) - ELEVATED\n- Sodium: 138 mmol/L (Normal: 135-145)\n- Potassium: 4.2 mmol/L (Normal: 3.5-5.1)\n- Blood Pressure: 150/92 mmHg (Target: <120/80) - HYPERTENSIVE\n\nCLINICAL IMPRESSION:\n- Elevated blood pressure with poor medication compliance\n- Elevated CRP suggesting inflammatory response\n- Mild leukocytosis consistent with possible infection\n\nRECOMMENDATIONS:\n- Review antihypertensive therapy\n- Consider repeat CRP in 1 week\n- Symptomatic treatment for cough\n- Chest X-ray if symptoms persist\n- Medication compliance counseling\n\nNote: This analysis is based on OCR extraction from uploaded medical document.",
+    "note_date": "2025-09-19T10:00:00"
+  },
+  {
+    "note_id": 15,
+    "patient_id": 3,
+    "text_snippet": "Medical Document Analysis - Laboratory Report (Auto-Generated)\n\nDocument ID: 999 | Filename: test_lab_report.png\nDate: 2025-09-18 20:32 | OCR Confidence: 85.5%\n\nEXTRACTED LABORATORY RESULTS:\nMETROPOLITAN MEDICAL CENTER\nLABORATORY REPORT\n\nPatient: Test Patient\nDate: 2025-09-19\nMRN: 12345\n\nCHEMISTRY PANEL:\nGlucose: 92 mg/dL (Normal: 70-100)\nCholesterol: 185 mg/dL (Normal: <200)\nHDL: 55 mg/dL (Normal: >40)\nLDL: 120 mg/dL (Normal: <130)\nTriglycerides: 150 mg/dL (Normal: <200)\n\nCOMPLETE BLOOD COUNT:\nWBC: 7.2 x10^3/uL (Normal: 4.0-11.0)\nRBC: 4.5 x10^6/uL (Normal: 4.2-5.9)\nHemoglobin: 14.1 g/dL (Normal: 12-16)\nHematocrit: 42% (Normal: 36-46)\n\nINTERPRETATION: All values within normal limits\n\nCLINICAL STATUS:\n- Laboratory document processed automatically from uploaded image\n- Results extracted using OCR technology\n- Manual verification recommended for critical values\n\nNote: This note was automatically generated from OCR analysis of uploaded medical document.\n",
+    "note_date": "2025-09-18T20:32:32"
+  },
+  {
+    "note_id": 11,
+    "patient_id": 3,
+    "text_snippet": "I feel sick tired and sleepy all the time despite having enough sleep. And my stomach hurts at random times. Also I feel loose motion.",
+    "note_date": "2025-09-18T17:57:13.366911"
+  },
+  {
+    "note_id": 10,
+    "patient_id": 5,
+    "text_snippet": "Eye sight ( Hypermetropia) inflammation and headache and dryness in the eye",
+    "note_date": "2025-09-18T16:16:59.542977"
+  },
+  {
+    "note_id": 9,
+    "patient_id": 4,
+    "text_snippet": "throat infection",
+    "note_date": "2025-09-18T16:07:00.833774"
+  },
+  {
+    "note_id": 8,
+    "patient_id": 3,
+    "text_snippet": "Health is nice fine",
+    "note_date": "2025-09-18T15:48:37.125952"
+  },
+  {
+    "note_id": 7,
+    "patient_id": 2,
+    "text_snippet": "Hello Suman",
+    "note_date": "2025-09-18T13:37:35.707502"
+  },
+  {
+    "note_id": 4,
+    "patient_id": 1,
+    "text_snippet": "2025-09-10: BP 150/92. Recommend care review; possible med escalation.",
+    "note_date": "2025-09-15T00:00:00"
+  },
+  {
+    "note_id": 3,
+    "patient_id": 1,
+    "text_snippet": "2025-09-01: BP 145/88. Patient reports medication missed once a week.",
+    "note_date": "2025-08-31T00:00:00"
+  },
+  {
+    "note_id": 2,
+    "patient_id": 1,
+    "text_snippet": "2025-08-15: BP 138/84. Mild headache reported.",
+    "note_date": "2025-08-16T00:00:00"
+  },
+  {
+    "note_id": 1,
+    "patient_id": 1,
+    "text_snippet": "2025-08-01: BP 130/80. No complaints.",
+    "note_date": "2025-08-01T00:00:00"
+  }
+]
