@@ -36,6 +36,11 @@ MANIFEST
 .env.test.local
 .env.production.local
 
+# Test files with potential secrets (keep .example versions)
+test_*_secrets.py
+*_api_test.py
+*_key_test.py
+
 # Database
 *.db
 *.sqlite
